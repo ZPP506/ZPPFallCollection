@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3898131117928B0859BFAC7E4F1D9B /* Pods-ZPPFallCollection_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF922893512DE4B6E1C20FA0E69F1C07 /* Pods-ZPPFallCollection_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		360DFF1B47F75A22F4D3562AADF06EFF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2FB5E55820030E960D42BB80EF29D5 /* ReplaceMe.swift */; };
+		482A42101F3F4798471E660BCC500D26 /* Pods-ZPPFallCollection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6E75B76C2D3BD79A96CA953CA3024 /* Pods-ZPPFallCollection_Tests-dummy.m */; };
+		5A584D9760E5C3239C7B6119421892C0 /* Pods-ZPPFallCollection_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1ADDE2F7B5C70F63D3CC421518DA6A3 /* Pods-ZPPFallCollection_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616EE7EC8D99EB8AB068E94C8D57C6D3 /* ZPPFallCollection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F145BB3F2EA7618924DD05D44180BA67 /* ZPPFallCollection-dummy.m */; };
+		6F11F0BB7DAAFEC0A99EFE2F960882ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8C7815E9A7779B129ED680142460C955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AC2968902EA5E5D68F18A481EDDEE3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AF968EDEDAAD9C8BC6835ACBA266BE42 /* ZPPFallCollection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A93D3F4F728206F8F08AFF821442390 /* ZPPFallCollection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F96CA30422A762CC84997794042F4222 /* Pods-ZPPFallCollection_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D50DE538112CB7E40847A821F2A42C02 /* Pods-ZPPFallCollection_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62458D139345CD1ECA5833670E3540B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED76F8216D7F75A261858BFD9C8A91E1;
+			remoteInfo = ZPPFallCollection;
+		};
+		CC6FBE8549155327C80BE271E5B2EE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78E3C26C1849E90BB17AAFA5CD269B07;
+			remoteInfo = "Pods-ZPPFallCollection_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3D1C30C9878A9566C502A2CE741575 /* Pods-ZPPFallCollection_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPPFallCollection_Tests-Info.plist"; sourceTree = "<group>"; };
+		0D20E94D7499D5328657DAEBD9800B4A /* ZPPFallCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPPFallCollection.release.xcconfig; sourceTree = "<group>"; };
+		0ECEA03BCF0368AF4400ACF9203A4327 /* ZPPFallCollection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPPFallCollection.modulemap; sourceTree = "<group>"; };
+		1047928F8E66C75FFEEDB036F3A2F18B /* Pods_ZPPFallCollection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPPFallCollection_Tests.framework; path = "Pods-ZPPFallCollection_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C1F21E5E331E6F89B61644AA7A1261 /* Pods-ZPPFallCollection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPPFallCollection_Example.release.xcconfig"; sourceTree = "<group>"; };
+		22C1DD48F684F7E0461E45539FD515E5 /* Pods_ZPPFallCollection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPPFallCollection_Example.framework; path = "Pods-ZPPFallCollection_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7A83422FF208EE9193920B87490689 /* Pods-ZPPFallCollection_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPPFallCollection_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35A27479F9B709F25E89F19A7A9F5CD4 /* Pods-ZPPFallCollection_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPPFallCollection_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4451590C456F8A719D88FE00A1C7FC51 /* Pods-ZPPFallCollection_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPPFallCollection_Example-Info.plist"; sourceTree = "<group>"; };
+		46C38DF999C10485DB8AD866A4B8E146 /* Pods-ZPPFallCollection_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPPFallCollection_Example.modulemap"; sourceTree = "<group>"; };
+		4A93D3F4F728206F8F08AFF821442390 /* ZPPFallCollection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPPFallCollection-umbrella.h"; sourceTree = "<group>"; };
+		4E6FBA215D17D9440DA3A49DC8881EE5 /* ZPPFallCollection-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPPFallCollection-Info.plist"; sourceTree = "<group>"; };
+		5225867337F22DFB17EEAE90F5786278 /* Pods-ZPPFallCollection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPPFallCollection_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5DD6E75B76C2D3BD79A96CA953CA3024 /* Pods-ZPPFallCollection_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPPFallCollection_Tests-dummy.m"; sourceTree = "<group>"; };
+		60FADF27DAD074F384B5134CF402B17E /* Pods-ZPPFallCollection_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPPFallCollection_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		68E3B3D9C15551886EFA9D34DECA3A87 /* ZPPFallCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPPFallCollection.debug.xcconfig; sourceTree = "<group>"; };
+		69C2F83CBECD5BF820653B4C9FE386FD /* Pods-ZPPFallCollection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPPFallCollection_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7CC5D30289926A5CEFE52AF588BB0626 /* ZPPFallCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPPFallCollection.framework; path = ZPPFallCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82872098948BF14DFF05E308010CCB98 /* Pods-ZPPFallCollection_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPPFallCollection_Tests.modulemap"; sourceTree = "<group>"; };
+		894631F9CE295F4B0AF31FEC1492B66D /* ZPPFallCollection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPPFallCollection-prefix.pch"; sourceTree = "<group>"; };
+		938F837331FCBA74AA0DE44E795E6EC9 /* Pods-ZPPFallCollection_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPPFallCollection_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2FB5E55820030E960D42BB80EF29D5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZPPFallCollection/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C503F3622ED95B8C289A9406DC99F302 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D50DE538112CB7E40847A821F2A42C02 /* Pods-ZPPFallCollection_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPPFallCollection_Example-dummy.m"; sourceTree = "<group>"; };
+		D6E1E3558E8C5413D10006CEEFB1F546 /* Pods-ZPPFallCollection_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPPFallCollection_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB99CA1568FC90DC4B8C1FCEC368BCAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DD6F54B978E671EE5210A32039DA46C5 /* ZPPFallCollection.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPPFallCollection.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1ADDE2F7B5C70F63D3CC421518DA6A3 /* Pods-ZPPFallCollection_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPPFallCollection_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F145BB3F2EA7618924DD05D44180BA67 /* ZPPFallCollection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPPFallCollection-dummy.m"; sourceTree = "<group>"; };
+		F82EF7C5BF185D6A697A12D7A96BB469 /* Pods-ZPPFallCollection_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPPFallCollection_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF922893512DE4B6E1C20FA0E69F1C07 /* Pods-ZPPFallCollection_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPPFallCollection_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		766FEB028D74EFFE1EA510E2EA5FCF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2968902EA5E5D68F18A481EDDEE3BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5EB15D848295D694D70D9961CB15FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7815E9A7779B129ED680142460C955 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6813A7934A9FC186063542EDE6AFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F11F0BB7DAAFEC0A99EFE2F960882ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066C858074DE2A55581B9CEA3621813C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB99CA1568FC90DC4B8C1FCEC368BCAB /* LICENSE */,
+				C503F3622ED95B8C289A9406DC99F302 /* README.md */,
+				DD6F54B978E671EE5210A32039DA46C5 /* ZPPFallCollection.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0F1CA08C0E38370CE4C47D2C03289AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C1DD48F684F7E0461E45539FD515E5 /* Pods_ZPPFallCollection_Example.framework */,
+				1047928F8E66C75FFEEDB036F3A2F18B /* Pods_ZPPFallCollection_Tests.framework */,
+				7CC5D30289926A5CEFE52AF588BB0626 /* ZPPFallCollection.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		210E3715703199574A2959DD710D65FA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39A521CC39ECFB62289D96ACA1C3D1B6 /* ZPPFallCollection */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		39A521CC39ECFB62289D96ACA1C3D1B6 /* ZPPFallCollection */ = {
+			isa = PBXGroup;
+			children = (
+				9E2FB5E55820030E960D42BB80EF29D5 /* ReplaceMe.swift */,
+				066C858074DE2A55581B9CEA3621813C /* Pod */,
+				A11990D0B91626BD44932A72AAF88C35 /* Support Files */,
+			);
+			name = ZPPFallCollection;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		70AC286A30C8FD7AF1762EC02114F222 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B941855C4645BD853D66263E98C7AB44 /* Pods-ZPPFallCollection_Example */,
+				CAFEE67D3A16B5ABD958DA9347ABE0D6 /* Pods-ZPPFallCollection_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A11990D0B91626BD44932A72AAF88C35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ECEA03BCF0368AF4400ACF9203A4327 /* ZPPFallCollection.modulemap */,
+				F145BB3F2EA7618924DD05D44180BA67 /* ZPPFallCollection-dummy.m */,
+				4E6FBA215D17D9440DA3A49DC8881EE5 /* ZPPFallCollection-Info.plist */,
+				894631F9CE295F4B0AF31FEC1492B66D /* ZPPFallCollection-prefix.pch */,
+				4A93D3F4F728206F8F08AFF821442390 /* ZPPFallCollection-umbrella.h */,
+				68E3B3D9C15551886EFA9D34DECA3A87 /* ZPPFallCollection.debug.xcconfig */,
+				0D20E94D7499D5328657DAEBD9800B4A /* ZPPFallCollection.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZPPFallCollection";
+			sourceTree = "<group>";
+		};
+		B941855C4645BD853D66263E98C7AB44 /* Pods-ZPPFallCollection_Example */ = {
+			isa = PBXGroup;
+			children = (
+				46C38DF999C10485DB8AD866A4B8E146 /* Pods-ZPPFallCollection_Example.modulemap */,
+				35A27479F9B709F25E89F19A7A9F5CD4 /* Pods-ZPPFallCollection_Example-acknowledgements.markdown */,
+				60FADF27DAD074F384B5134CF402B17E /* Pods-ZPPFallCollection_Example-acknowledgements.plist */,
+				D50DE538112CB7E40847A821F2A42C02 /* Pods-ZPPFallCollection_Example-dummy.m */,
+				2C7A83422FF208EE9193920B87490689 /* Pods-ZPPFallCollection_Example-frameworks.sh */,
+				4451590C456F8A719D88FE00A1C7FC51 /* Pods-ZPPFallCollection_Example-Info.plist */,
+				FF922893512DE4B6E1C20FA0E69F1C07 /* Pods-ZPPFallCollection_Example-umbrella.h */,
+				69C2F83CBECD5BF820653B4C9FE386FD /* Pods-ZPPFallCollection_Example.debug.xcconfig */,
+				13C1F21E5E331E6F89B61644AA7A1261 /* Pods-ZPPFallCollection_Example.release.xcconfig */,
+			);
+			name = "Pods-ZPPFallCollection_Example";
+			path = "Target Support Files/Pods-ZPPFallCollection_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CAFEE67D3A16B5ABD958DA9347ABE0D6 /* Pods-ZPPFallCollection_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				82872098948BF14DFF05E308010CCB98 /* Pods-ZPPFallCollection_Tests.modulemap */,
+				F82EF7C5BF185D6A697A12D7A96BB469 /* Pods-ZPPFallCollection_Tests-acknowledgements.markdown */,
+				D6E1E3558E8C5413D10006CEEFB1F546 /* Pods-ZPPFallCollection_Tests-acknowledgements.plist */,
+				5DD6E75B76C2D3BD79A96CA953CA3024 /* Pods-ZPPFallCollection_Tests-dummy.m */,
+				0A3D1C30C9878A9566C502A2CE741575 /* Pods-ZPPFallCollection_Tests-Info.plist */,
+				E1ADDE2F7B5C70F63D3CC421518DA6A3 /* Pods-ZPPFallCollection_Tests-umbrella.h */,
+				938F837331FCBA74AA0DE44E795E6EC9 /* Pods-ZPPFallCollection_Tests.debug.xcconfig */,
+				5225867337F22DFB17EEAE90F5786278 /* Pods-ZPPFallCollection_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZPPFallCollection_Tests";
+			path = "Target Support Files/Pods-ZPPFallCollection_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				210E3715703199574A2959DD710D65FA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0F1CA08C0E38370CE4C47D2C03289AF0 /* Products */,
+				70AC286A30C8FD7AF1762EC02114F222 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D70CE54203A9E8D322F2AA9C6DEFA59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A584D9760E5C3239C7B6119421892C0 /* Pods-ZPPFallCollection_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8706CA945F9941F728678C93DE2C66F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3898131117928B0859BFAC7E4F1D9B /* Pods-ZPPFallCollection_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40578EB58A989EDBB9F258085BC08BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF968EDEDAAD9C8BC6835ACBA266BE42 /* ZPPFallCollection-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		78E3C26C1849E90BB17AAFA5CD269B07 /* Pods-ZPPFallCollection_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CE9D06DC34982CBEA41C52C6A0F4FA /* Build configuration list for PBXNativeTarget "Pods-ZPPFallCollection_Example" */;
+			buildPhases = (
+				8706CA945F9941F728678C93DE2C66F0 /* Headers */,
+				5EAA017873490A6972524D8063ED751D /* Sources */,
+				FE6813A7934A9FC186063542EDE6AFEF /* Frameworks */,
+				3502248A0C3DA43885478EC142C5BE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E700D091812D745C0116BB5949CE6187 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZPPFallCollection_Example";
+			productName = "Pods-ZPPFallCollection_Example";
+			productReference = 22C1DD48F684F7E0461E45539FD515E5 /* Pods_ZPPFallCollection_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96AD1A30CC27FD8D1F7ACB15D4F90348 /* Pods-ZPPFallCollection_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C26F31846EACA1EA65E5B03CCF140D /* Build configuration list for PBXNativeTarget "Pods-ZPPFallCollection_Tests" */;
+			buildPhases = (
+				3D70CE54203A9E8D322F2AA9C6DEFA59 /* Headers */,
+				9A9AF009A07EAA15014ED759FACD3D9D /* Sources */,
+				766FEB028D74EFFE1EA510E2EA5FCF77 /* Frameworks */,
+				441849C745D1F591C3BD7183B9AEC791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C767F906AC476405B84B37AB440AB688 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZPPFallCollection_Tests";
+			productName = "Pods-ZPPFallCollection_Tests";
+			productReference = 1047928F8E66C75FFEEDB036F3A2F18B /* Pods_ZPPFallCollection_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED76F8216D7F75A261858BFD9C8A91E1 /* ZPPFallCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDD4DF042E7BDCA54C1A1E5859BB8C0 /* Build configuration list for PBXNativeTarget "ZPPFallCollection" */;
+			buildPhases = (
+				B40578EB58A989EDBB9F258085BC08BE /* Headers */,
+				9E0B782571D6AB436633B485F543E9BF /* Sources */,
+				8B5EB15D848295D694D70D9961CB15FA /* Frameworks */,
+				102A8A172F9CF01C7DD295361331FAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPPFallCollection;
+			productName = ZPPFallCollection;
+			productReference = 7CC5D30289926A5CEFE52AF588BB0626 /* ZPPFallCollection.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0F1CA08C0E38370CE4C47D2C03289AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78E3C26C1849E90BB17AAFA5CD269B07 /* Pods-ZPPFallCollection_Example */,
+				96AD1A30CC27FD8D1F7ACB15D4F90348 /* Pods-ZPPFallCollection_Tests */,
+				ED76F8216D7F75A261858BFD9C8A91E1 /* ZPPFallCollection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		102A8A172F9CF01C7DD295361331FAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3502248A0C3DA43885478EC142C5BE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441849C745D1F591C3BD7183B9AEC791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EAA017873490A6972524D8063ED751D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96CA30422A762CC84997794042F4222 /* Pods-ZPPFallCollection_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9AF009A07EAA15014ED759FACD3D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482A42101F3F4798471E660BCC500D26 /* Pods-ZPPFallCollection_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0B782571D6AB436633B485F543E9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360DFF1B47F75A22F4D3562AADF06EFF /* ReplaceMe.swift in Sources */,
+				616EE7EC8D99EB8AB068E94C8D57C6D3 /* ZPPFallCollection-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C767F906AC476405B84B37AB440AB688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZPPFallCollection_Example";
+			target = 78E3C26C1849E90BB17AAFA5CD269B07 /* Pods-ZPPFallCollection_Example */;
+			targetProxy = CC6FBE8549155327C80BE271E5B2EE8D /* PBXContainerItemProxy */;
+		};
+		E700D091812D745C0116BB5949CE6187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZPPFallCollection;
+			target = ED76F8216D7F75A261858BFD9C8A91E1 /* ZPPFallCollection */;
+			targetProxy = 62458D139345CD1ECA5833670E3540B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		264A9F638BB029C9415E7128794E01AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		31059FC4CDCFE28D42E245A795B024B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		32C34A9C8933D18DBC56DCC3D1C1A4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938F837331FCBA74AA0DE44E795E6EC9 /* Pods-ZPPFallCollection_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPPFallCollection_Tests/Pods-ZPPFallCollection_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPPFallCollection_Tests/Pods-ZPPFallCollection_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44C495177CF5B6B1C967224ED22C9463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E3B3D9C15551886EFA9D34DECA3A87 /* ZPPFallCollection.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPPFallCollection/ZPPFallCollection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPPFallCollection/ZPPFallCollection-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPPFallCollection/ZPPFallCollection.modulemap";
+				PRODUCT_MODULE_NAME = ZPPFallCollection;
+				PRODUCT_NAME = ZPPFallCollection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E1CF5A741DEDFD6A2D3510533816CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5225867337F22DFB17EEAE90F5786278 /* Pods-ZPPFallCollection_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPPFallCollection_Tests/Pods-ZPPFallCollection_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPPFallCollection_Tests/Pods-ZPPFallCollection_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D621482AD61A4CEA2A2CBA788E24B712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D20E94D7499D5328657DAEBD9800B4A /* ZPPFallCollection.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPPFallCollection/ZPPFallCollection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPPFallCollection/ZPPFallCollection-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPPFallCollection/ZPPFallCollection.modulemap";
+				PRODUCT_MODULE_NAME = ZPPFallCollection;
+				PRODUCT_NAME = ZPPFallCollection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E184FCED7BDBAC08CE31FDDD9A25655D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C2F83CBECD5BF820653B4C9FE386FD /* Pods-ZPPFallCollection_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPPFallCollection_Example/Pods-ZPPFallCollection_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPPFallCollection_Example/Pods-ZPPFallCollection_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E26E0CD6EFF05EB9D592B03737907AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C1F21E5E331E6F89B61644AA7A1261 /* Pods-ZPPFallCollection_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPPFallCollection_Example/Pods-ZPPFallCollection_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPPFallCollection_Example/Pods-ZPPFallCollection_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31059FC4CDCFE28D42E245A795B024B8 /* Debug */,
+				264A9F638BB029C9415E7128794E01AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C26F31846EACA1EA65E5B03CCF140D /* Build configuration list for PBXNativeTarget "Pods-ZPPFallCollection_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C34A9C8933D18DBC56DCC3D1C1A4E0 /* Debug */,
+				6E1CF5A741DEDFD6A2D3510533816CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDD4DF042E7BDCA54C1A1E5859BB8C0 /* Build configuration list for PBXNativeTarget "ZPPFallCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C495177CF5B6B1C967224ED22C9463 /* Debug */,
+				D621482AD61A4CEA2A2CBA788E24B712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CE9D06DC34982CBEA41C52C6A0F4FA /* Build configuration list for PBXNativeTarget "Pods-ZPPFallCollection_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E184FCED7BDBAC08CE31FDDD9A25655D /* Debug */,
+				E26E0CD6EFF05EB9D592B03737907AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

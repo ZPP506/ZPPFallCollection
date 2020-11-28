@@ -1,0 +1,6 @@
+framework module ZPPFallCollection {
+  umbrella header "ZPPFallCollection-umbrella.h"
+
+  export *
+  module * { export * }
+}

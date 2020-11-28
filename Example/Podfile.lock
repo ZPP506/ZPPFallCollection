@@ -1,0 +1,16 @@
+PODS:
+  - ZPPFallCollection (0.1.0)
+
+DEPENDENCIES:
+  - ZPPFallCollection (from `../`)
+
+EXTERNAL SOURCES:
+  ZPPFallCollection:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZPPFallCollection: ab30083d19d044445a166c1c8bac8d00be61300c
+
+PODFILE CHECKSUM: 5a2fdf397e3d62ca4ef763d2907b7c6a3f52db78
+
+COCOAPODS: 1.10.0.beta.2
