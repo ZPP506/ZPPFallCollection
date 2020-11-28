@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZPPFallCollection_Example' do
+  pod 'ZPPFallCollection', :path => '../'
+
+  target 'ZPPFallCollection_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
