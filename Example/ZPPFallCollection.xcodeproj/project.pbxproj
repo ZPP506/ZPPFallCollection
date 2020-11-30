@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19B1B54925724B0700F41E2B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B1B54525724B0700F41E2B /* CollectionViewCell.xib */; };
+		19B1B54A25724B0700F41E2B /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19B1B54625724B0700F41E2B /* 1.plist */; };
+		19B1B54B25724B0700F41E2B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B1B54725724B0700F41E2B /* CollectionViewCell.swift */; };
 		4279665A8F4F1DD570C8BD2B /* Pods_ZPPFallCollection_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8FDB0AA3C7B9907BE0A802 /* Pods_ZPPFallCollection_Tests.framework */; };
 		48F4063973E0F24DC3A4BF2A /* Pods_ZPPFallCollection_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308D09661AD7F595A8663833 /* Pods_ZPPFallCollection_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -29,7 +32,10 @@
 
 /* Begin PBXFileReference section */
 		11ADFE268AA0A72E07827FD8 /* Pods-ZPPFallCollection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPFallCollection_Example.release.xcconfig"; path = "Target Support Files/Pods-ZPPFallCollection_Example/Pods-ZPPFallCollection_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1674164F2B7D784E42CCBEB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1674164F2B7D784E42CCBEB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		19B1B54525724B0700F41E2B /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		19B1B54625724B0700F41E2B /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		19B1B54725724B0700F41E2B /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		308D09661AD7F595A8663833 /* Pods_ZPPFallCollection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPPFallCollection_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ZPPFallCollection_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPPFallCollection_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +50,8 @@
 		63177851881FD65112AE9F3C /* Pods-ZPPFallCollection_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPFallCollection_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZPPFallCollection_Tests/Pods-ZPPFallCollection_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B8FDB0AA3C7B9907BE0A802 /* Pods_ZPPFallCollection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPPFallCollection_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		819B74171E757D764CE94B4D /* Pods-ZPPFallCollection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPFallCollection_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZPPFallCollection_Tests/Pods-ZPPFallCollection_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C54A099E0E443DF4ED1AAA09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F62B93F89AC902BA9BE78CC5 /* ZPPFallCollection.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZPPFallCollection.podspec; path = ../ZPPFallCollection.podspec; sourceTree = "<group>"; };
+		C54A099E0E443DF4ED1AAA09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F62B93F89AC902BA9BE78CC5 /* ZPPFallCollection.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZPPFallCollection.podspec; path = ../ZPPFallCollection.podspec; sourceTree = "<group>"; };
 		F855426C0BBEDC018B81A8CD /* Pods-ZPPFallCollection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPFallCollection_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZPPFallCollection_Example/Pods-ZPPFallCollection_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +83,6 @@
 				63177851881FD65112AE9F3C /* Pods-ZPPFallCollection_Tests.debug.xcconfig */,
 				819B74171E757D764CE94B4D /* Pods-ZPPFallCollection_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,6 +110,9 @@
 		607FACD21AFB9204008FA782 /* Example for ZPPFallCollection */ = {
 			isa = PBXGroup;
 			children = (
+				19B1B54625724B0700F41E2B /* 1.plist */,
+				19B1B54725724B0700F41E2B /* CollectionViewCell.swift */,
+				19B1B54525724B0700F41E2B /* CollectionViewCell.xib */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -227,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,8 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B1B54A25724B0700F41E2B /* 1.plist in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				19B1B54925724B0700F41E2B /* CollectionViewCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +344,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				19B1B54B25724B0700F41E2B /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
