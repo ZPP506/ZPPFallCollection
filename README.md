@@ -7,8 +7,9 @@
 
 3. 本例写的比较糙， 性能是短板，有改进方案的老铁记得issues
 实现思路：使用collectionView 自定义瀑布流， 然后使用定时器滚动collection的偏移量
-![normal video (4).gif](https://upload-images.jianshu.io/upload_images/11285123-bba3f7ff91d34d65.gif?imageMogr2/auto-orient/strip)
 
+## 简书查看效果图
+https://www.jianshu.com/p/48addd78f321
 
 
 ## Installation
